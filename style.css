@@ -1,0 +1,23 @@
+@import url(/wider-world/assets/);
+/*ESTILOS DE RESET*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+
+/*Globals*/
+body {
+    /*background-color: #F5F1ED;*/
+    background-color: aquamarine;
+
+    font-family: 'Old Standard TT', serif;
+}
