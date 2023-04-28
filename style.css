@@ -66,6 +66,14 @@ header nav ul li {
     font-style: bold;
     color: #DAD2BC;
 }
+main .hero-image{
+    
+}
+main .hero-image  img{
+    height: 300px;
+    /*object-fit: cover;*/
+    overflow: hidden;
+}
 main .search-bar {
     height: 45px;;
     display: flex;
