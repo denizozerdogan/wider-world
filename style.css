@@ -1,4 +1,7 @@
-@import url(/wider-world/assets/);
+@import url(/assets/Montserrat-Regular.ttf);
+@import url(/assets/OldStandardTT-Regular.ttf);
+
+
 /*ESTILOS DE RESET*/
 *{
     padding: 0px;
@@ -17,5 +20,31 @@ li{
 /*Globals*/
 body {
     background-color: #F5F1ED;
+    
+}
+h1{
+    font-size: 70px;
     font-family: 'Old Standard TT', serif;
+    color: #DAD2BC;
+}
+h2 {
+
+}
+p{
+    
+}
+/*LAYOUT*/
+header {
+    background-color: #A99984;
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header nav ul li {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    color: #DAD2BC;
 }
