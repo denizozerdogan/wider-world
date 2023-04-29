@@ -205,3 +205,33 @@ footer .contact-info{
     display: flex;
     justify-content: center;
 }
+
+/* Choose a travel pack styling */
+
+.image-wrapper {
+    position: relative;
+    width: 400px;
+    height: 500px;
+  }
+
+  .image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .image-wrapper img:first-child {
+    opacity: 1;
+  }
+
+  .image-wrapper:hover img:first-child {
+    opacity: 0;
+  }
+
+  .image-wrapper:hover img:last-child {
+    opacity: 1;
+  }
