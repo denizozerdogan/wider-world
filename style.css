@@ -21,23 +21,40 @@ li{
 /*Globals*/
 body {
     background-color: #F5F1ED;
+    font-family: 'Montserrat', sans-serif;
     
 }
 h1{
-    font-size: 70px;
-    font-family: 'Old Standard TT', serif;
+   
     color: #DAD2BC;
 }
-h2 {
-
-}
-p{
-    
+h2{
+    font-size: 35px;
+    font-family: 'Old Standard TT', serif;
+    color: #252323;
 }
 /*LAYOUT*/
 header {
     background-color: #A99984;
+    display:flex;
+    align-items: center;
 }
+header .logo img{
+    width: 113.69px;
+    height: 111.61px;
+    left: 5.97px;
+    top: 116.52px;
+    transform: rotate(-92deg);
+}
+header .wider-world-title h1{
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #DAD2BC;
+}
+
 header nav ul{
     display: flex;
     justify-content: flex-start;
@@ -144,4 +161,44 @@ header nav ul li {
 .login-direct {
     display: flex;
     justify-content: center;
+}
+main .hero-image{
+    
+}
+main .hero-image  img{
+    height: 300px;
+    /*object-fit: cover;*/
+    overflow: hidden;
+}
+main .search-bar {
+    height: 45px;;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;;
+}
+main .search-bar input {
+    border: #A99984 solid 1px;
+    background: #DAD2BC;
+    border-radius: 5px;
+    color: #A99984;
+    width: 300px;
+    height: 24px;
+}
+main .event-image img{
+    width:250px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: #A99984;
+    color: #F5F1ED;
+}
+footer .contact-info{
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
 }
