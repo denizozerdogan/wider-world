@@ -49,3 +49,99 @@ header nav ul li {
     font-style: bold;
     color: #DAD2BC;
 }
+
+/* Login page styling */
+
+.login-page {
+    display: flex; 
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #DAD2BC;
+}
+
+.login-form {
+    background: #70798c;
+    padding: 20px;
+}
+
+.login-form-title {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 35px;
+    margin: 15px;
+    
+}
+
+.login-page input {
+        padding: 4px;
+        font-size: 16px;
+        margin: 2px;
+}
+
+.login-data {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #DAD2BC;
+    margin: 20px 5px;
+    background-color: #A99984;
+}
+
+.login-submit {
+    border: none;
+    background-color: #A99984;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #252323;
+}
+
+.forgot-password {
+    display: flex; 
+    justify-content: center;
+    padding: 5px;
+}
+
+/*Signup page styling*/
+
+.signup-page {
+    display: flex; 
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #DAD2BC;
+    margin: 20px;
+}
+
+.signup-form {
+    background: #70798c;
+    padding: 20px;
+    width: 270px;
+}
+
+.signup-data {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.signup-page input {
+    padding: 4px;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.login-direct {
+    display: flex;
+    justify-content: center;
+}
