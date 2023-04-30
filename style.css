@@ -123,7 +123,7 @@ form{
 
 footer{
     background-color: #A99984;
-    color: #F5F1ED;
+    color: #252323;
 }
 footer .contact-info{
     display:flex;
@@ -282,6 +282,10 @@ footer .contact-info{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
+
+  }
+  .event:hover {
+      filter: contrast(1.75);
   }
 
   .one{
