@@ -44,7 +44,7 @@ h3{
 h4{
   font-size: 14px;
   font-family: 'Old Standard TT', serif;
-  color: #DAD2BC;
+  color: #A99984;
 }
 h5{
   font-size: 12px;
@@ -209,14 +209,18 @@ form{
 footer{
     background-color: #A99984;
     color: #252323;
+    
 }
 footer .contact-info{
     display:flex;
     flex-direction: column;
     padding: 15px;
+    margin-left: 20px;
+
 }
 footer .contact-info span{
     color:#252323;
+    line-height: 35px;
 }
 
 /* Login page styling */
@@ -454,6 +458,8 @@ footer .contact-info span{
   /*ABOUT US*/
   main .about-us{
     display: flex;
+    line-height: 35px;
+    letter-spacing: 0.01em;
   }
   main .about-us img{
     width: 100%;
@@ -466,12 +472,45 @@ footer .contact-info span{
    
   }
   main .our-team .team-member {
-    background-color: #A99984;
+    background-color: #DAD2BC;
     overflow: hidden;
-    padding: 20px;
+    padding: 10px;
+    border-radius: 10px;
 
   }
   main .our-team .team-member img{
     width: 150px;
 
+  }
+
+  /*SECURITY*/
+  main {
+    
+  }
+  main .content-security {
+    justify-content: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/security-image.png);
+    height: 1300px;
+  }
+  main .content-security .text-content-security {
+    justify-content: center;
+    width: 800px;
+    color: #252323;
+    margin-left: 200px;
+  }
+  main .content-security .text-content-security p{
+    color:#252323;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  main .content-security .text-content-security ol{
+    color:#252323;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  main .content-security ol li{
+    list-style: decimal;
   }
