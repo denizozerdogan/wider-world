@@ -235,3 +235,16 @@ footer .contact-info{
   .image-wrapper:hover img:last-child {
     opacity: 1;
   }
+
+  /* Signup rerout to login page from pack page for buying */
+  
+  .intouch{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid #A99984;
+    background-color: #DAD2BC;
+    color: #252323;
+    font-weight: bold;
+  }
