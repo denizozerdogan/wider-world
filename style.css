@@ -17,7 +17,10 @@ a{
 li{
     list-style: none;
 }
+p, span{
+  color: #DAD7BC;
 
+}
 /*Globals*/
 body {
     background-color: #F5F1ED;
@@ -33,6 +36,39 @@ h2{
     font-family: 'Old Standard TT', serif;
     color: #DAD2BC;
 }
+h3{
+  font-size: 22px;
+  font-family: 'Old Standard TT', serif;
+  color: #A99984;
+}
+h4{
+  font-size: 14px;
+  font-family: 'Old Standard TT', serif;
+  color: #DAD2BC;
+}
+h5{
+  font-size: 12px;
+  font-family: 'Old Standard TT', serif;
+  color: #70798c;
+}
+
+
+button{
+  background-color: #A99984;
+  color: white;
+  border-radius: 10px;
+  border: transparent;
+  width: 100px;
+  height: 30px;
+}
+
+#input{
+  width: 80%;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 30px;
+}
+
 /*LAYOUT*/
 header {
     background-color: #A99984;
@@ -46,11 +82,6 @@ header .logo img{
     height: 111.61px;
     transform: rotate(-92deg);
 }
-/*
-
-header .logo h1{
-
-}*/
 
 header .logo .anim-logo {
   position: relative;
@@ -183,6 +214,9 @@ footer .contact-info{
     display:flex;
     flex-direction: column;
     padding: 15px;
+}
+footer .contact-info span{
+    color:#252323;
 }
 
 /* Login page styling */
@@ -403,21 +437,6 @@ footer .contact-info{
     background-image: url(assets/messi-image.jpg);
   }
 
-  button{
-    background-color: #A99984;
-    color: white;
-    border-radius: 10px;
-    border: transparent;
-    width: 100px;
-    height: 30px;
-  }
-
-  #input{
-    width: 80%;
-    height: 30px;
-    padding-left: 15px;
-    border-radius: 30px;
-  }
 
   /* Signup rerout to login page from pack page for buying */
   
@@ -430,4 +449,29 @@ footer .contact-info{
     background-color: #DAD2BC;
     color: #252323;
     font-weight: bold;
+  }
+
+  /*ABOUT US*/
+  main .about-us{
+    display: flex;
+  }
+  main .about-us img{
+    width: 100%;
+  }
+  main .our-team{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+   
+  }
+  main .our-team .team-member {
+    background-color: #A99984;
+    overflow: hidden;
+    padding: 20px;
+
+  }
+  main .our-team .team-member img{
+    width: 150px;
+
   }
