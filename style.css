@@ -232,11 +232,13 @@ footer .contact-info span{
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     color: #DAD2BC;
+    margin: 20px;
 }
 
 .login-form {
     background: #70798c;
     padding: 20px;
+    width: 280px;
 }
 
 .login-form-title {
@@ -513,4 +515,29 @@ footer .contact-info span{
   }
   main .content-security ol li{
     list-style: decimal;
+  }
+
+  /*Testimonials styling */
+
+  .testimonials article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+
+  .testimonials h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .testimonial {
+    margin-bottom: 15px;
+    text-align: justify;
+    border: 1px solid #A99984;
+    padding: 10px;
+  
+  }
+
+  .testimonials br {
+    margin-bottom: 10px;
   }
