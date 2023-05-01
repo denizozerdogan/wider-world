@@ -24,35 +24,40 @@ p, span{
 /*Globals*/
 body {
     background-color: #F5F1ED;
-    text-shadow: 5px 5px 5px black;
+    
     font-family: 'Montserrat', sans-serif;
     background: conic-gradient(from -70.76deg at 50.03% 60.97%, #252323 0deg, #252323 187.5deg, #DAD7BC 236.22deg, #252323 279.06deg, #252323 360deg);
 }
 h1{
-    color: #DAD2BC;
+    color: #DAD2BC;text-shadow:
+     5px 5px 5px black;
     }
 
 h2{
     font-size: 35px;
     font-family: 'Old Standard TT', serif;
     color: #DAD2BC;
+    text-shadow: 5px 5px 5px black;
     
 }
 h3{
   font-size: 22px;
   font-family: 'Old Standard TT', serif;
   color: #A99984;
+  text-shadow: 5px 5px 5px black;
 }
 h4{
   font-size: 14px;
   font-family: 'Old Standard TT', serif;
   color: #A99984;
   
+  
 }
 h5{
   font-size: 12px;
   font-family: 'Old Standard TT', serif;
   color: #70798c;
+ 
   
 }
 
