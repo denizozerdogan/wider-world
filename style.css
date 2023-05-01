@@ -24,17 +24,19 @@ p, span{
 /*Globals*/
 body {
     background-color: #F5F1ED;
+    text-shadow: 5px 5px 5px black;
     font-family: 'Montserrat', sans-serif;
     background: conic-gradient(from -70.76deg at 50.03% 60.97%, #252323 0deg, #252323 187.5deg, #DAD7BC 236.22deg, #252323 279.06deg, #252323 360deg);
 }
 h1{
     color: #DAD2BC;
-}
+    }
 
 h2{
     font-size: 35px;
     font-family: 'Old Standard TT', serif;
     color: #DAD2BC;
+    
 }
 h3{
   font-size: 22px;
@@ -45,11 +47,13 @@ h4{
   font-size: 14px;
   font-family: 'Old Standard TT', serif;
   color: #A99984;
+  
 }
 h5{
   font-size: 12px;
   font-family: 'Old Standard TT', serif;
   color: #70798c;
+  
 }
 
 
@@ -327,6 +331,13 @@ footer .contact-info span{
     position: relative;
     width: 400px;
     height: 500px;
+  
+  }
+  .choose{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
   }
 
   .image-wrapper img {
@@ -337,6 +348,8 @@ footer .contact-info span{
     height: 100%;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    
+  
   
   }
 
