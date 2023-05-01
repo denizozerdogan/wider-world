@@ -451,7 +451,7 @@ footer .contact-info span{
     display: flex;
     justify-content: center;
     margin: 20px;
-    padding: 5px;
+    padding: 25px;
     border: 2px solid #A99984;
     background-color: #DAD2BC;
     color: #252323;
@@ -563,11 +563,6 @@ footer .contact-info span{
        margin-bottom: 15px;
     }
     
-   
-
-
-
-  
 
   /*Testimonials styling */
 
