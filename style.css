@@ -81,6 +81,7 @@ button{
 /*LAYOUT*/
 header {
     background-color: #A99984;
+    width: 100%;
 }
 header .logo {
   display: flex;
@@ -776,4 +777,27 @@ li {
     padding: 20px;
     margin: 10px;
     text-shadow: 5px 5px 5px black;
+  }
+
+  #walker{
+    position: fixed;
+    width: 100px;
+    z-index: -1000;
+    animation: 5s 1s infinite walk;
+  }
+
+  @keyframes walk{
+    0%{
+      left: 80%;
+      filter: grayscale(0);
+    }
+    66%{
+      left: 100%;
+      filter: grayscale(100%);
+    }
+  }
+
+  img[alt="portal"]{
+    position: relative;
+    left: 10%;
   }
