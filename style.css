@@ -807,14 +807,32 @@ li {
   }
 
   #write{
-    color: black;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid black; /* The typwriter cursor */
-    animation: blink-caret .75s step-end infinite;
+    color: #000000;
+  }
+
+  .queseyo{
+    animation: typing 3.5s steps(40, end) infinite;
+    height: 19px;
+    overflow: hidden;
+  }
+
+  @keyframes typing{
+    0%{
+      width: 0px;
+    }
+    99%{
+      width: 100%;
+    }
+  }
+
+audio{
+  display: none;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color:black; }
+footer span{
+  transition: all 3s;
+}
+
+footer span:hover{
+  color: white
 }
