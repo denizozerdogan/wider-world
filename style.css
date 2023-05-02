@@ -331,7 +331,11 @@ footer .contact-info span{
 }
 
 /* Choose a travel pack styling */
-
+.centratelaconchadetumadre{
+  position: relative;
+  left: 10%;
+  top:40%;
+}
 
 body {
   background-color: lightgrey;
@@ -340,12 +344,32 @@ body {
 #kiko-slider {
   font-family: sans-serif;
   margin: auto;
-  background-color:#918E7E;
+  background-color:white;
   max-width: 300px;
   width: 100%;
   padding: 30px;
   box-sizing: border-box;
-  border-radius: 30px;
+  transform: rotate(10deg);
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  left:10%;
+  z-index: 2;
+}
+
+.blank-space{
+  height: 100px;
+}
+
+.camera{
+  background-image: url(assets/polaroid.png);
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  width: 40%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  z-index: 1;
 }
 
 #kiko-slider>ul,
@@ -361,6 +385,7 @@ li {
   width: 100%;
   height: 300px;
 }
+
 .choose{
   display: flex;
   justify-content: center;
