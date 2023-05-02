@@ -842,3 +842,8 @@ fieldset{
   margin: 3%;
 }
 
+.beige{
+  background-color: #A99984;
+  width: 100%;
+  height: 100vh;
+}
