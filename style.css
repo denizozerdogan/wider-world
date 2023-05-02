@@ -331,35 +331,92 @@ footer .contact-info span{
 }
 
 /* Choose a travel pack styling */
-.division{
-  height: 100px;
+#kiko-slider {
+  font-family: sans-serif;
+  margin: auto;
+  background-color:#70798c;
+  max-width: 300px;
+  width: 500%;
+  padding: 30px;
+  box-sizing:border-box;
+  border-radius: 30px;
+  
 }
 
 
-.image-wrapper {
-    position: relative;
-    width: 400px;
-    height: 500px;
-  }
+#kiko-slider>ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
-  .pack-three{
-    background-image: url(assets/packs/pack-speeches.png);
-    
-  
-  
-  }
+#kiko-slider>ul.slider {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  height: 300px;
+}
 
-  .pack-four{
-    background-image: url(assets/packs/pack-festivals.png);
-  }
+#kiko-slider>ul.slider h1 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%, -50%);
+}
 
-  .pack-five{
-    background-image: url(assets/packs/pack-sports.png);
-  }
+#kiko-slider>ul.slider li {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  transition: opacity .5s;
+  background: #fff;
+}
 
-  .pack-six{
-    background-image: url(assets/packs/pack-decades.png);
-  }
+#kiko-slider>ul.slider li img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#kiko-slider>ul.slider li:first-child {
+  opacity: 1;
+  /*Mostramos el primer <li>*/
+}
+
+#kiko-slider>ul.slider li:target {
+  opacity: 1;
+  /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+#kiko-slider>.menu {
+  text-align: center;
+  margin: 10px;
+}
+
+#kiko-slider>.menu li {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+#kiko-slider>.menu li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
 
   /*HERO*/
   .hero-image{
@@ -381,9 +438,13 @@ footer .contact-info span{
     height: 250px;
     display: inline-block;
     margin: 1%;
-    border-radius: 50px;
-  }
 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+
+  }
   .event:hover {
       filter: contrast(1.75);
       border:#DAD2BC solid 2px;
@@ -485,10 +546,11 @@ footer .contact-info span{
     overflow: hidden;
     padding: 10px;
     border-radius: 10px;
-    margin: 10px ;
+
   }
   main .our-team .team-member img{
     width: 150px;
+
   }
 
   /*SECURITY*/
@@ -567,6 +629,9 @@ footer .contact-info span{
        margin-bottom: 15px;
     }
     
+     .pack-content li {
+    list-style-type: circle;
+  }
 
   /*Testimonials styling */
 
@@ -579,6 +644,8 @@ footer .contact-info span{
   .testimonials h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: 15px;
+  
   }
 
   .testimonial {
@@ -586,6 +653,11 @@ footer .contact-info span{
     text-align: justify;
     border: 1px solid #A99984;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    color: #DAD7BC;
   
   }
 
@@ -593,10 +665,9 @@ footer .contact-info span{
     margin-bottom: 10px;
   }
 
-  .pack-content li {
-    list-style-type: circle;
-  }
 
-  .testimonial img{
-    width: 100px;
+  .testimonial img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50%;
   }
