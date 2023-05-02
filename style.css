@@ -320,33 +320,53 @@ footer .contact-info span{
 }
 
 /* Choose a travel pack styling */
+.division{
+  height: 100px;
+}
+
 
 .image-wrapper {
     position: relative;
-    width: 400px;
-    height: 500px;
+    width: 100;
+    height: 1000px;
   }
 
-  .image-wrapper img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+.pack {
+    display: inline-flex;
+    width: 30%;
+    height: 70%;
+    border-radius: 100%px;
+    margin: 0.5%;
   }
 
-  .image-wrapper img:first-child {
-    opacity: 1;
+  .pack, .event{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .image-wrapper:hover img:first-child {
-    opacity: 0;
+  .pack-one{
+    background-image: url(assets/packs/pack-scientists.png);
   }
 
-  .image-wrapper:hover img:last-child {
-    opacity: 1;
+  .pack-two{
+    background-image: url(assets/packs/pack-feminists.png);
+  }
+
+  .pack-three{
+    background-image: url(assets/packs/pack-speeches.png);
+  }
+
+  .pack-four{
+    background-image: url(assets/packs/pack-festivals.png);
+  }
+
+  .pack-five{
+    background-image: url(assets/packs/pack-sports.png);
+  }
+
+  .pack-six{
+    background-image: url(assets/packs/pack-decades.png);
   }
 
   /*HERO*/
@@ -369,13 +389,9 @@ footer .contact-info span{
     height: 250px;
     display: inline-block;
     margin: 1%;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 30px;
-
+    border-radius: 50px;
   }
+
   .event:hover {
       filter: contrast(1.75);
       border:#DAD2BC solid 2px;
@@ -476,11 +492,10 @@ footer .contact-info span{
     overflow: hidden;
     padding: 10px;
     border-radius: 10px;
-
+    margin: 10px ;
   }
   main .our-team .team-member img{
     width: 150px;
-
   }
 
   /*SECURITY*/
@@ -513,4 +528,8 @@ footer .contact-info span{
   }
   main .content-security ol li{
     list-style: decimal;
+  }
+
+  .testimonial img{
+    width: 100px;
   }
