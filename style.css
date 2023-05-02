@@ -761,7 +761,9 @@ li {
   .testimonial img {
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 100%;
+    width: 50%;
+    display: flex;
+    align-self: center;
   }
 
   .testimonial3 p {
