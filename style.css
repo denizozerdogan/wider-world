@@ -836,3 +836,9 @@ footer span{
 footer span:hover{
   color: white
 }
+
+fieldset{
+  border: transparent;
+  margin: 3%;
+}
+
