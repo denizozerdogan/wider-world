@@ -726,7 +726,6 @@ li {
   /*Testimonials styling */
 
   .testimonials {
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -760,11 +759,12 @@ li {
     margin-bottom: 10px;
   }
 
-
   .testimonial img {
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 100%;
+    width: 50%;
+    display: flex;
+    align-self: center;
   }
 
   .testimonial3 p {
