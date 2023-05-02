@@ -338,8 +338,9 @@ footer .contact-info span{
   max-width: 300px;
   width: 500%;
   padding: 30px;
-  box-sizing: border-box;
+  box-sizing:border-box;
   border-radius: 30px;
+  
 }
 
 
@@ -395,12 +396,13 @@ li {
 
 #kiko-slider>.menu {
   text-align: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 #kiko-slider>.menu li {
   display: inline-block;
   text-align: center;
+  padding: 20px;
 }
 
 #kiko-slider>.menu li a {
