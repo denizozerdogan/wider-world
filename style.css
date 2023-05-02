@@ -725,7 +725,6 @@ li {
   /*Testimonials styling */
 
   .testimonials {
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
