@@ -1,5 +1,3 @@
-# wider-world
-
 # Wider-World-by-Lovelace
 
 ## Descripción - Qué hace la aplicación
@@ -7,12 +5,6 @@
 Wider World by Lovelace es una página web para vender viajes en el tiempo a momentos históricos o simplemente para conocer a personas que han marcado la historia de nuestra sociedad. El objetivo del proyecto es conseguir clientes a personas aventureras a través de un sitio web innovador y atractivo; dónde pudieran buscar un viaje, informarse y comprarlo.
 Nuestra página web permite a los viajeros del tiempo buscar un momento específico que quieran vivir, como a su vez, les permite seleccionar los momentos claves que para nosotras han sido especiales como a su vez elegir entre los packs que ya están propuestos. 
 Nuestro viaje al pasado, lo realizamos a partir de un portal de tiempo que nos permite disfrutar el mismo día del evento o hasta tres días consecutivos. 
-
-## Table of Contents (Opcional)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Descripción, imágenes y url de los mock-ups
 
