@@ -862,8 +862,8 @@ fieldset{
 
 .pack-images img{
   display: inline-block;
-  border: solid 30px white;
-  border-bottom: solid 100px white;
+  border: solid 10%  white;
+  border-bottom: solid 20% white;
   margin: 1%;
   width: auto;
   height: 45vh;
@@ -871,8 +871,8 @@ fieldset{
 }
 
 .testimonial img{
-  border: solid 40px white;
-  border-bottom: solid 100px white;
+  border: solid 10%  white;
+  border-bottom: solid 20% white;
   display: inline;
   width: 40%;
   margin-right: -30px;
