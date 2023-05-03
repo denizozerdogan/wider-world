@@ -895,3 +895,10 @@ fieldset{
   width: 20px;
   height: auto;
 }
+
+input{
+  height: 20px;
+  width: 100px;
+  background-color: #DAD2BC;
+  border: transparent;
+}
