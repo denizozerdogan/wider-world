@@ -779,7 +779,7 @@ li {
   }
 
   #walker{
-    position: fixed;
+    position: absolute;
     width: 100px;
     z-index: -1000;
     animation: 5s 1s infinite walk;
