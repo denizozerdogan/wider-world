@@ -726,16 +726,17 @@ li {
   /*Testimonials styling */
 
   .testimonials {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 5%;
+    margin: 5%;*/
   }
 
   .testimonials article {
     margin-top: 15px;
     margin-bottom: 15px;
-    text-align: justify;
+    line-height: 35px;
+    letter-spacing: 0.01em;
   }
 
   .testimonials h3 {
@@ -748,11 +749,13 @@ li {
     margin-bottom: 15px;
     text-align: justify;
     border: 1px solid #A99984;
-    padding: 10px;
+    padding: 10px 40px;
     display: flex;
     flex-direction: column;
     color: #DAD7BC;
-  
+    background-color: rgba(15, 15, 15, 0.5);
+    line-height: 35px;
+    letter-spacing: 0.01em;
   }
 
   .testimonials br {
@@ -765,10 +768,6 @@ li {
     width: 50%;
     display: flex;
     align-self: center;
-  }
-
-  .testimonial3 p {
-    color: #000000;
   }
 
   .extra-page-title-testimonials {
