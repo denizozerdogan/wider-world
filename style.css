@@ -897,8 +897,22 @@ fieldset{
 }
 
 input{
-  height: 20px;
-  width: 100px;
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
   background-color: #DAD2BC;
   border: transparent;
+  padding-left: 30px;
+  margin-right: 10px;
+}
+
+textarea{
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: #DAD2BC;
+  border: transparent;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-top: 10px;
 }
