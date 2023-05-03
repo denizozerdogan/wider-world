@@ -9,6 +9,7 @@ Nuestro viaje al pasado, lo realizamos a partir de un portal de tiempo que nos p
 ## Descripción, imágenes y url de los mock-ups
 
 Nuestro sitio web tiene una página principal que contiene en la parte superior una barra de navegación con botones que llevaran a los clientes a conocernos, saber las normas de seguridad con las cuenta Wider World by Lovelace para garantizar un viaje de calidad, testimonios de viajeros y un botón de inicio de sesión. Seguido a esta barra contamos con nuestra hero image que le permite al cliente imaginar cómo será su próximo viaje. 
+
 Luego contamos con una selección de momentos históricos que a nosotras nos han parecido interesantes de vivir y una sección de paquetes de viaje de 3 días y 3 momentos distintos. 
 Llegando al final de la página los viajeros podrán encontrar todos los datos que necesitan para poder comunicarse con nosotras (dirección de correo, teléfono, dirección). 
 Si el viajero decide optar por un pack, al hacer click sobre el que más le interesa, podrá acceder a toda la información y detalles del viaje; va  a poder hacer su reserva iniciando sesión y rellenando un formulario. Luego Wider World by Lovelace se pondrá en contacto con ellos para coordinar pagos y fecha de viaje. 
