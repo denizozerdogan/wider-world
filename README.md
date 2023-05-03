@@ -25,9 +25,8 @@ Compartimos nuestra página web en Github.
 
 ## Retos enfrentados y características que se esperan desarrollar en el futuro
 
-La página de formulario de reserva después de la página de inicio de sesión
-Galerías de fotos para mostrar el contenido de nuestros packs
 Páginas individuales para todos nuestros eventos
+Galerías de fotos para mostrar el contenido de nuestros packs
 Opcion de "añadir al carrito" en las páginas de packs y eventos
 Sección de artículos sobre los eventos históricos
 Botón de búsqueda más amplio para los usuarios. 
