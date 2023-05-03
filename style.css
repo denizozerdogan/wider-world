@@ -869,3 +869,29 @@ fieldset{
   height: 45vh;
   border-radius: 0px;
 }
+
+.testimonial img{
+  border: solid 40px white;
+  border-bottom: solid 100px white;
+  display: inline;
+  width: 40%;
+  margin-right: -30px;
+}
+
+#uno{
+  transform: rotate(5deg);
+}
+
+#dos{
+  transform: rotate(10deg);
+}
+
+#tres{
+  transform: rotate(-10deg);
+}
+
+#cabra{
+  display: inline-block;
+  width: 20px;
+  height: auto;
+}
