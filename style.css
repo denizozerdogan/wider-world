@@ -873,7 +873,9 @@ fieldset{
 .testimonial img{
   border: solid 40px white;
   border-bottom: solid 100px white;
-  margin: 20px;
+  display: inline;
+  width: 40%;
+  margin-right: -30px;
 }
 
 #uno{
