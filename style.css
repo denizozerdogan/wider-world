@@ -889,3 +889,9 @@ fieldset{
 #tres{
   transform: rotate(-10deg);
 }
+
+#cabra{
+  display: inline-block;
+  width: 30px;
+  height: auto;
+}
